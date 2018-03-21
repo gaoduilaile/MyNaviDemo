@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.krvision.mynavidemo.Map1Activity">
+
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_nowAddress"
+            style="@style/navigation_text"/>
+
+        <TextView
+            android:id="@+id/tv_nextAddress"
+            style="@style/navigation_text"/>
+
+        <TextView
+            android:id="@+id/tv_remainDistance"
+            style="@style/navigation_text"/>
+
+        <TextView
+            android:id="@+id/tv_stepRetainDistance"
+            style="@style/navigation_text"/>
+
+        <TextView
+            android:id="@+id/tv_offestAngle"
+            style="@style/navigation_text"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收藏"/>
+
+        <Button
+            android:id="@+id/btn_trail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <Button
+            android:id="@+id/btn_trail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+        <Button
+            android:id="@+id/btn_trail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

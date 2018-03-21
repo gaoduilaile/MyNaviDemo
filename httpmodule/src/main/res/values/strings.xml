@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HttpModule</string>
+    <string name="dialog_http_loading_message_default">加载中...</string>
+    <string name="dialog_http_loading_message_upload">正在上传...</string>
+    <string name="dialog_http_loading_message_working">处理中...</string>
+</resources>
